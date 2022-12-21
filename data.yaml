@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Fixed Wings', 'Multi-rotor', 'Single rotor']
+
+roboflow:
+  workspace: noor-djz41
+  project: multiuav
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/noor-djz41/multiuav/dataset/3
